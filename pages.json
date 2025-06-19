@@ -1,0 +1,98 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#345DC2",
+        "navigationBarTextStyle": "white",
+        "app-plus": {
+          "titleNView": {
+            "type": "transparent",
+            "searchInput": {
+              "align": "center",
+              "backgroundColor": "#F0F1F2",
+              "borderRadius": "30rpx",
+              "placeholder": "搜索你想要的内容"
+            },
+            "buttons": [
+              {
+                "fontSrc": "/static/icon/iconfont.ttf",
+                "text": "\ue62b",
+                "fontSize": "23",
+                "background": "rgba(0,0,0,0)"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/catagory/catagory",
+      "style": {
+        "navigationBarTitleText": "分类"
+      }
+    },
+    {
+      "path": "pages/article/article",
+      "style": {
+        "navigationBarTitleText": "阅读"
+      }
+    },
+    {
+      "path": "pages/question/question",
+      "style": {
+        "navigationBarTitleText": "问答"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#b0abb3",
+    "selectedColor": "#345DC2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tab/index.png",
+        "selectedIconPath": "/static/tab/index-active.png"
+      },
+      {
+        "pagePath": "pages/catagory/catagory",
+        "text": "分类",
+        "iconPath": "/static/tab/category.png",
+        "selectedIconPath": "/static/tab/category-active.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "阅读",
+        "iconPath": "/static/tab/article.png",
+        "selectedIconPath": "/static/tab/article-active.png"
+      },
+      {
+        "pagePath": "pages/question/question",
+        "text": "问答",
+        "iconPath": "/static/tab/question.png",
+        "selectedIconPath": "/static/tab/question-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/tab/my.png",
+        "selectedIconPath": "/static/tab/my-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black", //导航栏标题颜色及状态前景颜色
+    "navigationBarBackgroundColor": "#FFFFFF", //导航栏背景颜色
+    "backgroundColor": "#F8F8F8" //被选中的颜色
+  },
+  "uniIdRouter": {}
+}

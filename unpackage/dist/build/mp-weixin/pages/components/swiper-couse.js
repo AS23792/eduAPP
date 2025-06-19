@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={components:{courseItem:()=>"../../components/common/course-item.js"}};if(!Array){e.resolveComponent("course-item")()}const n=e._export_sfc(o,[["render",function(o,n,r,t,c,s){return{a:e.f(2,((o,n,r)=>({a:e.f(4,((e,o,n)=>({a:o,b:"def51384-0-"+r+"-"+n}))),b:n})))}}]]);wx.createComponent(n);

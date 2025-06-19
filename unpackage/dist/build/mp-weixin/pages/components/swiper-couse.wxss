@@ -1,0 +1,1 @@
+.list-box{margin-top:60rpx}.title{margin:0 20px}.list-box .name{font-size:38rpx;font-weight:500;color:#303133}.word{font-size:20rpx;background-image:linear-gradient(to right,orange,red);color:#fff;padding:0 10rpx;border-radius:30rpx 30rpx 30rpx 0}.all{font-weight:400;color:#999;font-size:28rpx}.all .iconfont{font-size:25rpx}.list-swiper{height:800rpx;padding-left:30rpx}

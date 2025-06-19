@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "course-item": "../../components/common/course-item"
+  }
+}

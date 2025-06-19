@@ -1,0 +1,1 @@
+.category-box{display:flex;justify-content:space-around;flex-wrap:wrap;padding:30rpx 30rpx 0}.category-box>view{width:160rpx;height:70rpx;background-color:#e9e9f2;text-align:center;line-height:70rpx;font-size:26rpx;border-radius:20rpx;overflow:hidden;margin-top:15rpx;color:gray}

@@ -1,0 +1,1 @@
+<view class="index-box"><search-input u-i="6696b8b4-0" bind:__l="__l"></search-input><banner u-i="6696b8b4-1" bind:__l="__l"></banner><category-box u-i="6696b8b4-2" bind:__l="__l"></category-box><swiper-course u-i="6696b8b4-3" bind:__l="__l"></swiper-course></view>
